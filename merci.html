@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jérôme Sauzet</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <div class="accueil">
+        <div class="banner"></div>
+        <h2>Vôtre message à bien été envoyé</h2>
+            <div id="retour">
+                <a href="index.php">Retour au site</a>
+            </div>
+    </div>
+    <script>
+        const banner = document.querySelector('.banner');
+           
+           for(let i = 0; i < 400; i++){
+               let blocks = document.createElement('div');
+               blocks.classList.add('blocks');
+               banner.appendChild(blocks);
+               const duration = Math.random() * 5;
+               blocks.style.animationDuration = 2 + duration + 's';
+               blocks.style.animationDelay = duration +'s';
+           }
+   </script>
+    </body>
+    </html>
