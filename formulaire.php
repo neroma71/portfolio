@@ -58,7 +58,7 @@
 	
 		
 		// Envoi l'e.mail
-		mail($monemail,$message,$headers);
+		mail($monemail,$message,$headers, $commantires);
 		
 		// Change l'en-tête HTTP lors de l'envoi
 		header('Location:merci.html');

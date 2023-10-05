@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Jérôme Sauzet développeu web junion, front et back">
     <title>Portfolio Jérôme Sauzet</title>
-    <link rel="stylesheet" href="css/stylemin.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">  
 </head>
 <body>
+    <div class="scrollbar2"></div>
+    <div class="scrollbar"></div>
+    <div class="cursor"></div>
  <main>
     <div id="top"></div>
     <header>
@@ -45,11 +48,11 @@
         <h3>Compétences</h3>
         <div class="category">
             <div class="langage">
+            <h4>back</h4>
+                    <p>Symfony, PHP procédural, PHP objet</p>
                 <h4>front</h4>
                     <p>HTML, CSS, Bootstrap, SASS, JS, React, Jquery </p>
-                <h4>back</h4>
-                    <p>PHP procédural, PHP objet, symfony</p>
-                <h4>Annexe</h4>
+                <h4>annexe</h4>
                     <p>GIT, Figma, Photoshop, Illustrator, InDesign, After Effects</p>
             </div>
             
@@ -65,42 +68,56 @@
         <div id="content">
         <a href="#">
             <div class="block">
+                <img src="images/luxury.jpg" alt="site de jeux">
+                <p>Projet Symfony</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="block">
                 <img src="images/tp-zoo.png" alt="site de jeux">
+                <p>Projet de jeu en php</p>
             </div>
         </a>
         <a href="#">
             <div class="block">
                 <img src="images/combat.png" alt="site de jeux">
-            </div>
-        </a>
-        <a href="#">
-            <div class="block">
-                <img src="images/luxury.jpg" alt="site de jeux">
+                <p>Projet de jeu en php</p>
             </div>
         </a>
         <a href="#">
             <div class="block">
                 <img src="images/audioplayer.jpg" alt="site de jeux">
+                <p>Projet audioplayer php</p>
             </div>
         </a>
         <a href="https://nadine-lahoz-quilez.fr/">
             <div class="block">
                 <img src="images/nadine.jpg" alt="site de jeux">
+                <p>Site publié</p>
             </div>
         </a>
         <a href="https://515m.fr/">
             <div class="block">
                 <img src="images/515m.jpg" alt="site de jeux">
+                <p>Site publié</p>
             </div>
         </a>
         <a href="https://www.lesarchis.net/">
             <div class="block">
                 <img src="images/lesarchis.jpg" alt="site de jeux">
+                <p>Site publié</p>
             </div>
         </a>
         <a href="https://francois-mourotte.com/">
             <div class="block">
                 <img src="images/mourotte.jpg" alt="site de jeux">
+                <p>Site publié</p>
+            </div>
+        </a>
+        <a href="#">
+            <div class="block">
+                <img src="images/mountain.jpg" alt="site de jeux">
+                <p>Intégration Bootstrap</p>
             </div>
         </a>
         <a href="#contact">
@@ -130,7 +147,7 @@
 		  </form>
     </div>
 </main>
-    <script src="js/parallaxmin.js"></script>
+    <script src="js/parallax.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/scroll.js"></script>
 <script>
