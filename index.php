@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Jérôme Sauzet développeu web junion, front et back">
     <title>Portfolio Jérôme Sauzet</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylemin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">  
@@ -147,7 +147,7 @@
 		  </form>
     </div>
 </main>
-    <script src="js/parallax.js"></script>
+    <script src="js/parallaxmin.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/scroll.js"></script>
 <script>
